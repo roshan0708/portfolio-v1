@@ -1,5 +1,5 @@
-function myFunction(){
-    $("#loader").remove();
+function myFuntion(){
+    $("#loader").css("display","none");
 }
 $(document).ready((e)=>{
     $win = $(window);
