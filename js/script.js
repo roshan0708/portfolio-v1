@@ -1,5 +1,6 @@
 function myFuntion(){
     $("#loader").css("display","none");
+    $(' html, body').css({ overflow: 'auto' });
 }
 $(document).ready((e)=>{
     $win = $(window);

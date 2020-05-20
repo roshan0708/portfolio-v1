@@ -6,6 +6,9 @@ body{
 	margin:0;
 	padding:0;
 }
+html, body{
+  overflow: hidden;
+}
 
 /* loader */
 #loader{
@@ -14,11 +17,12 @@ body{
 	position: fixed;
 	z-index:9999999999;
 	background-color: #0F1626;
+	overflow:hidden;
 }
 .loaders{
 	position:absolute;
-	top:50%;
-	left:50%;
+	top:45%;
+	left:45%;
 }
 #loader span{
 	width:25px;
